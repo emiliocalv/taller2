@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento de Vehículos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="search-icon">
+                <!-- Aquí iría tu icono de búsqueda -->
+            </div>
+        </header>
+
+        <div class="vehicle-info">
+            <div class="vehicle-image" style="background-image: url('https://cdn.usegalileo.ai/stability/eba7a066-46d0-4012-a4e9-55878ba02dc0.png');"></div>
+            <div>
+                <h2>BMW X5 2019</h2>
+                <p>120,000 km</p>
+            </div>
+        </div>
+
+        <main>
+            <div id="dashboard" class="page">
+                <div class="maintenance-card">
+                    <h3>Mantenimiento</h3>
+                    <p>$12,000</p>
+                    <p>Año anterior: -3%</p>
+                    <div class="maintenance-chart">
+                        <!-- Aquí iría tu gráfico de mantenimiento -->
+                    </div>
+                </div>
+                <a href="#" class="action-button" id="scheduleButton">Programar mantenimiento</a>
+                
+                <div class="calendar">
+                    <h3>Calendario de Reservas</h3>
+                    <table id="calendarTable">
+                        <!-- El calendario se llenará dinámicamente con JavaScript -->
+                    </table>
+                </div>
+            </div>
+
+            <!-- ... (otras páginas) ... -->
+        </main>
+
+        <nav class="nav-bar">
+            <!-- ... (elementos de navegación) ... -->
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
